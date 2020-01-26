@@ -9,3 +9,10 @@ The clock takes a CSV input containing a list of positions identified by `<CONTI
 |JH602136:8746439|0.9|0.6|
 |JH602136:8746449|0.5|0.5|
 
+To run the clock:
+
+```python
+import run_clock
+prediction = run_clock.run_clock("FILENAME.csv")
+```
+
